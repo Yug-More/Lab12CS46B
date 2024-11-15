@@ -30,7 +30,7 @@ public class FamilyTree {
         // with the given name. Returns the node, or null if not found.
         TreeNode getNodeWithName(String targetName) {
             // Does this node have the target name?
-            if (?????)
+            if (name.equals(targetName))
                 return this;
                     
             // No, recurse. Check all children of this node.
